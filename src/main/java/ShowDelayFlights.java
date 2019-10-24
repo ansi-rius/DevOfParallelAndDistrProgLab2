@@ -15,6 +15,6 @@ public class ShowDelayFlights {
         Job job = Job.getInstance();
         job.setJarByClass(ShowDelayFlights.class);
         job.setJobName("Delay Flights");
-        MultipleInputs.
+        MultipleInputs.addInputPath(job, new Path(args[0]), )
     }
 }
