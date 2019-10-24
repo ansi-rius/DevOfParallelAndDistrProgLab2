@@ -23,6 +23,7 @@ public class ShowDelayFlights {
         //редьюс-функц д)
         //
         job.setOutputKeyClass(Text.class);
-        //
+        //job.setOutputValueClass(IntWritable.class); //врайтбл менять
+        
     }
 }
