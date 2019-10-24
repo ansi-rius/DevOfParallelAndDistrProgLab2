@@ -22,6 +22,7 @@ public class ShowDelayFlights {
         //компаратор г)
         //редьюс-функц д)
         //
-        
+        job.setOutputKeyClass(Text.class);
+        //
     }
 }
