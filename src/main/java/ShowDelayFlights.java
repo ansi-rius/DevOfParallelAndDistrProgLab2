@@ -13,6 +13,7 @@ public class ShowDelayFlights {
             System.exit(-1);
         }
         Job job = Job.getInstance();
+        job.setJarByClass(ShowDelayFlights.class);
         
     }
 }
