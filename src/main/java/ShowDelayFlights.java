@@ -12,6 +12,7 @@ public class ShowDelayFlights {
         if (args.length != 2) {
             System.exit(-1);
         }
-        Job job = 
+        Job job = Job.getInstance();
+        
     }
 }
