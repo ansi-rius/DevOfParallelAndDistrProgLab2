@@ -24,6 +24,7 @@ public class ShowDelayFlights {
         //
         job.setOutputKeyClass(Text.class);
         //job.setOutputValueClass(IntWritable.class); //врайтбл менять
+        job.setNumReduceTasks(2);
         
     }
 }
