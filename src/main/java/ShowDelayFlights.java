@@ -17,5 +17,8 @@ public class ShowDelayFlights {
         job.setJobName("Delay Flights");
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsTableMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportsTableMapper.class);
+        FileOutputFormat.setOutputPath(job, new Path(args[2]));
+        //партишнер
+        //
     }
 }
