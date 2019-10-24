@@ -14,6 +14,7 @@ public class ShowDelayFlights {
         }
         Job job = Job.getInstance();
         job.setJarByClass(ShowDelayFlights.class);
+        job.setJobName("Delay Flights");
         
     }
 }
