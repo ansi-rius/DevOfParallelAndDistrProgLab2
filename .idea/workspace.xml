@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/AirportKey.java" afterPath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/AirportKey.java" />
-    </list>
+    <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportsTableMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportsTableMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/AirportsTableMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+            <state relative-caret-position="342">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TablesParser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TablesParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/TablesParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -425,17 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/TablesParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/AirWritable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -446,6 +433,16 @@
             <element signature="e#324#325#0" expanded="true" />
             <element signature="e#363#364#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/AirportsTableMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,12 +461,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/AirportsTableMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/TablesParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
           </folding>
         </state>
       </provider>
