@@ -30,4 +30,3 @@ public class ShowDelayFlights {
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
-//ыыssssss
