@@ -12,6 +12,6 @@ public class FlightsTableMapper extends Mapper<LongWritable, Text, AirportKey, T
             return;
         }
         String codesAndAirports[] = TablesParser.parseAirportsTable(value); //результат парсинга таблицы
-
+        
     }
 }
