@@ -34,5 +34,14 @@ public class AirportKey implements WritableComparable<AirportKey> {
         airportName.write(out);
         airportCode.write(out);
     }
+
+    public void readFirlds(DataInput inp) throws IOException {
+        airportName.readFields(inp);
+        airportCode.readFields(inp);
+    }
+
+    public Text getAirportName() {
+        return airportName;
+    }
 }
 
