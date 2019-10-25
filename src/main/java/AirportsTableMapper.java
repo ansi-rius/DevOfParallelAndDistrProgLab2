@@ -8,6 +8,7 @@ public class AirportsTableMapper extends Mapper<LongWritable, Text, Text, IntWri
     @Override protected
     void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         //читать таблицы..
-        String codesAndAirports[] = //результат парсинга таблицы,
+        String codesAndAirports[] = TablesParser.parseAirportsTable(value); //результат парсинга таблицы,
+        
     }
 }
