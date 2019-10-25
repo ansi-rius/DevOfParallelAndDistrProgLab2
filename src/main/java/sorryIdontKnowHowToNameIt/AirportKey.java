@@ -1,4 +1,4 @@
-//в)  в.разрабатываем map функцию для каждого из набора данных, которая
+package sorryIdontKnowHowToNameIt;//в)  в.разрабатываем map функцию для каждого из набора данных, которая
 //генерирует WritableComparable ключа и Writable данных
 // для списка аэропортов эта функция в качестве value отправляет имя аэропорта.
 //для списка рейсов в качестве value эта функция отправляет время задержки (в
@@ -33,6 +33,10 @@ public class AirportKey implements WritableComparable<AirportKey> {
     public void write(DataOutput out) throws IOException {
         airportName.write(out);
         airportCode.write(out);
+    }
+
+    public void readFields(DataInput dataInput) throws IOException {
+        
     }
 
     public void readFirlds(DataInput inp) throws IOException {

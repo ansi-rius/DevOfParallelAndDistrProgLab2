@@ -1,3 +1,5 @@
+package sorryIdontKnowHowToNameIt;
+
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.io.LongWritable;
