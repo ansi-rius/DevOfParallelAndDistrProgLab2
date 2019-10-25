@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/AirportsTableMapper.java" afterPath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/AirportsTableMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/TablesParser.java" afterPath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/TablesParser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/TablesParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -464,7 +463,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt/TablesParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding />
         </state>
       </provider>
