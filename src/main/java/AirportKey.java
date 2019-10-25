@@ -11,7 +11,10 @@ import java.io.IOException;
 
 public class AirportKey implements WritableComparable<AirportKey> {
     private Text airportName;
-    private int DESCRIPTION;
+    private int airCode;
 
-    public AirportKey()
+    public AirportKey(Text airportName, int airCode) {
+        this.airportName = new Text(airportName);
+        this.airCode = new int(airCode);
+    }
 }
