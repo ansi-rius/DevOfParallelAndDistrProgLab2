@@ -20,10 +20,10 @@ public class ShowDelayFlights {
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setPartitionerClass(AirportPartitioner.class); //партишнер в)
         job.setGroupingComparatorClass(KeyComparator.class);//компаратор г)
-        job.setReducerClass(AirportReducer.class)//редьюс-функц д)
-        //
+        job.setReducerClass(AirportReducer.class); //редьюс-функц д)
+        job.setMapOutputKeyClass(AirportKey.class);
         job.setOutputKeyClass(Text.class);
-        //job.setOutputValueClass(IntWritable.class); //врайтбл менять
+        job.setOutputValueClass(Text.class); //врайтбл менять
         job.setNumReduceTasks(2);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
