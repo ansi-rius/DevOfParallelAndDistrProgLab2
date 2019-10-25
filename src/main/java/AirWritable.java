@@ -1,5 +1,5 @@
 //a)
-package 
+package DevOfParallelAndDistrProg;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 
