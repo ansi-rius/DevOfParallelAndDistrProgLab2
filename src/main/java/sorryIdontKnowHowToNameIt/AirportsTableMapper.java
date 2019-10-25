@@ -13,6 +13,10 @@ public class AirportsTableMapper extends Mapper<LongWritable, Text, Text, IntWri
         //читать таблицы..
         String codesAndAirports[] = TablesParser.parseAirportsTable(value); //результат парсинга таблицы,
         //работа с ключами..
-        if (codesAndAirports[])
+        if (key.get() == 0) {
+            return;
+        }
+        AirportKey ak = new AirportKey()
+        context.write();
     }
 }
