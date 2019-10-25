@@ -7,12 +7,12 @@ import org.apache.hadoop.io.Text;
 import java.io.IOException;
 
 public class AirportsTableMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
-    private static int CODE = 0, 
+    private static int CODE = 0, DESCRIPTION = 1;
     @Override protected
     void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         //читать таблицы..
         String codesAndAirports[] = TablesParser.parseAirportsTable(value); //результат парсинга таблицы,
         //работа с ключами..
-        AirportKey ak = new AirportKey(codesAndAirports[CODE])
+        AirportKey ak = new AirportKey(codesAndAirports[CODE],0);
     }
 }
