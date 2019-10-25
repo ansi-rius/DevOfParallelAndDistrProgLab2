@@ -38,6 +38,11 @@
             <artifactId>hadoop-common</artifactId>
             <version>3.2.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations-java5</artifactId>
+            <version>RELEASE</version>
+        </dependency>
     </dependencies>
 
 
