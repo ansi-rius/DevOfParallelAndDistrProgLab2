@@ -21,7 +21,7 @@ public class ShowDelayFlights {
         job.setPartitionerClass(sorryIdontKnowHowToNameIt.AirportPartitioner.class); //партишнер в)
         job.setGroupingComparatorClass(sorryIdontKnowHowToNameIt.KeyComparator.class);//компаратор г)
         job.setReducerClass(sorryIdontKnowHowToNameIt.AirportReducer.class); //редьюс-функц д)
-        job.setMapOutputKeyClass(AirportKey.class);
+        job.setMapOutputKeyClass(sorryIdontKnowHowToNameIt.AirportKey.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class); //врайтбл менять
         job.setNumReduceTasks(2);
