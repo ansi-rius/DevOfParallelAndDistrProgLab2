@@ -11,8 +11,8 @@ public class FlightsTableMapper extends Mapper<LongWritable, Text, AirportKey, T
         if (key.get() == 0) {
             return;
         }
-        String codesAndAirports[] = TablesParser.parseAirportsTable(value); //результат парсинга таблицы
-        AirportKey ak = new AirportKey(TablesParser.getID(codesAndAirports[CODE]),1);
+        String codesAndAirports[] = sorryIdontKnowHowToNameIt.TablesParser.parseAirportsTable(value); //результат парсинга таблицы
+        AirportKey ak = new AirportKey(sorryIdontKnowHowToNameIt.TablesParser.getID(codesAndAirports[CODE]),1);
         Text delay = new Text(codesAndAirports[DELAY]);
         context.write(ak, delay);
     }

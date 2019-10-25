@@ -15,12 +15,12 @@ public class ShowDelayFlights {
         Job job = Job.getInstance();
         job.setJarByClass(ShowDelayFlights.class);
         job.setJobName("Delay Flights");
-        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsTableMapper.class);
-        MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportsTableMapper.class);
+        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, sorryIdontKnowHowToNameIt.FlightsTableMapper.class);
+        MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, sorryIdontKnowHowToNameIt.AirportsTableMapper.class);
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
-        job.setPartitionerClass(AirportPartitioner.class); //партишнер в)
-        job.setGroupingComparatorClass(KeyComparator.class);//компаратор г)
-        job.setReducerClass(AirportReducer.class); //редьюс-функц д)
+        job.setPartitionerClass(sorryIdontKnowHowToNameIt.AirportPartitioner.class); //партишнер в)
+        job.setGroupingComparatorClass(sorryIdontKnowHowToNameIt.KeyComparator.class);//компаратор г)
+        job.setReducerClass(sorryIdontKnowHowToNameIt.AirportReducer.class); //редьюс-функц д)
         job.setMapOutputKeyClass(AirportKey.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class); //врайтбл менять
