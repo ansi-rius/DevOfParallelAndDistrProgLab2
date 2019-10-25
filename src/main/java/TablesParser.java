@@ -7,4 +7,6 @@ public class TablesParser {
 
         return text.toString().split(","); // a[0]="10001", a[1]="Afognak Lake, AK: Afognak Lake Airport"
     }
+
+    public static String[] parse
 }
