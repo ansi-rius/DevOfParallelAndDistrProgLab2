@@ -69,11 +69,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/TablesParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-              </folding>
+              <caret line="11" column="137" lean-forward="false" selection-start-line="11" selection-start-column="137" selection-end-line="11" selection-end-column="137" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -421,11 +418,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/TablesParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
+          <caret line="11" column="137" lean-forward="false" selection-start-line="11" selection-start-column="137" selection-end-line="11" selection-end-column="137" />
+          <folding />
         </state>
       </provider>
     </entry>
