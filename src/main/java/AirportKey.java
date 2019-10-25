@@ -4,6 +4,7 @@
 //для списка рейсов в качестве value эта функция отправляет время задержки (в
 //виде строки)
 
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.Text;
 import java.io.DataInput;
@@ -12,14 +13,14 @@ import java.io.IOException;
 
 public class AirportKey implements WritableComparable<AirportKey> {
     private Text airportName;
-    private int airportCode;
+    private IntWritable airportCode;
 
     public AirportKey() {
     }
 
     public AirportKey(Text airName, int airCode) {
-        airportName = airName;
-        airportCode = airCode;
+        this.airportName = new Text(airName);
+        this.airportCode = new IntWritable(airCode);
     }
 
     public int compareTo(AirportKey ak) {
@@ -27,6 +28,11 @@ public class AirportKey implements WritableComparable<AirportKey> {
         if (cmp != 0)
             return cmp;
         return this.airportCode.compareTo(ak.airportCode);
+    }
+
+    public void write(DataOutput out) throws IOException {
+        airportName.write(out);
+        airportCode.write(out);
     }
 }
 
