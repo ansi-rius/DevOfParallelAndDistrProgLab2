@@ -1,4 +1,4 @@
-package ru.bmstu.hadoop.example.book;
+package sorryIdontKnowHowToNameIt;
 
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;

@@ -1,4 +1,4 @@
-package ru.bmstu.hadoop.example.book;
+package sorryIdontKnowHowToNameIt;
 
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.fs.Path;
@@ -15,13 +15,13 @@ public class ShowDelayFlights {
         Job job = Job.getInstance();
         job.setJarByClass(ShowDelayFlights.class);
         job.setJobName("Delay Flights");
-        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, ru.bmstu.hadoop.example.book.FlightsTableMapper.class);
-        MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, ru.bmstu.hadoop.example.book.AirportsTableMapper.class);
+        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, sorryIdontKnowHowToNameIt.FlightsTableMapper.class);
+        MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, sorryIdontKnowHowToNameIt.AirportsTableMapper.class);
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
-        job.setPartitionerClass(ru.bmstu.hadoop.example.book.AirportPartitioner.class); //партишнер в)
-        job.setGroupingComparatorClass(ru.bmstu.hadoop.example.book.KeyComparator.class);//компаратор г)
-        job.setReducerClass(ru.bmstu.hadoop.example.book.AirportReducer.class); //редьюс-функц д)
-        job.setMapOutputKeyClass(ru.bmstu.hadoop.example.book.AirportKey.class);
+        job.setPartitionerClass(sorryIdontKnowHowToNameIt.AirportPartitioner.class); //партишнер в)
+        job.setGroupingComparatorClass(sorryIdontKnowHowToNameIt.KeyComparator.class);//компаратор г)
+        job.setReducerClass(sorryIdontKnowHowToNameIt.AirportReducer.class); //редьюс-функц д)
+        job.setMapOutputKeyClass(AirportKey.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class); //врайтбл менять
         job.setNumReduceTasks(2);

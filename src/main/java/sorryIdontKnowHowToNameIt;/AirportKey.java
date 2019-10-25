@@ -1,4 +1,4 @@
-package ru.bmstu.hadoop.example.book;
+package sorryIdontKnowHowToNameIt;
 //в)  в.разрабатываем map функцию для каждого из набора данных, которая
 //генерирует WritableComparable ключа и Writable данных
 // для списка аэропортов эта функция в качестве value отправляет имя аэропорта.
