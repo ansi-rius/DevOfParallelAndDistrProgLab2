@@ -17,6 +17,7 @@ public class AirportsTableMapper extends Mapper<LongWritable, Text, Text, IntWri
             return;
         }
         AirportKey ak = new AirportKey(TablesParser.getID(codesAndAirports[CODE]),0);
+        Text des = new Text()
         context.write();
     }
 }
