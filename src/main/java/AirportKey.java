@@ -21,6 +21,11 @@ public class AirportKey implements WritableComparable<AirportKey> {
         airportCode = airCode;
     }
 
-    
+    public int compareTo(AirportKey ak) {
+        int cmp = airportName.compareTo(ak.airportName);
+        if (cmp != 0)
+            return cmp;
+        return this.airportCode.compareTo(ak.airportCode);
+    }
 }
 
