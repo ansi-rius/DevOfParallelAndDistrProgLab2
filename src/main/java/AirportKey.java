@@ -43,5 +43,9 @@ public class AirportKey implements WritableComparable<AirportKey> {
     public Text getAirportName() {
         return airportName;
     }
+
+    public IntWritable getAirportCode() {
+        return airportCode;
+    }
 }
 
