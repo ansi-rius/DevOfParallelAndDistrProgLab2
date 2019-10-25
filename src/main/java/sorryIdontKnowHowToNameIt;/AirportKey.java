@@ -13,19 +13,19 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class AirportKey implements WritableComparable<AirportKey> {
-    private Text airportName;
-    private IntWritable tableCode;
+    private int airportID;
+    private int tableCode;
 
     public AirportKey() {
     }
 
-    public AirportKey(String airName, int tableCode) {
-        this.airportName = new Text(airName);
-        this.tableCode = new IntWritable(tableCode);
+    public AirportKey(int airName, int tableCode) {
+        airportID = airName;
+        tableCode = tableCode;
     }
 
     public int compareTo(AirportKey ak) {
-        int cmp = airportName.compareTo(ak.airportName);
+        int cmp = compare(this.get);
         if (cmp != 0)
             return cmp;
         return this.tableCode.compareTo(ak.tableCode);
