@@ -13,14 +13,14 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class AirportKey implements WritableComparable<AirportKey> {
-    private String airportName;
+    private Text airportName;
     private IntWritable airportCode;
 
     public AirportKey() {
     }
 
     public AirportKey(String airName, int airCode) {
-        this.airportName = airName;
+        this.airportName = new Text(airName);
         this.airportCode = new IntWritable(airCode);
     }
 
@@ -41,7 +41,7 @@ public class AirportKey implements WritableComparable<AirportKey> {
         airportCode.readFields(inp);
     }
 
-    public String getAirportName() {
+    public Text getAirportName() {
         return airportName;
     }
 
