@@ -19,33 +19,37 @@ public class AirportKey implements WritableComparable<AirportKey> {
     public AirportKey() {
     }
 
-    public AirportKey(int airName, int tableCode) {
+    public AirportKey(int airName, int tableCod) {
         airportID = airName;
-        tableCode = tableCode;
+        tableCode = tableCod;
+    }
+
+    public static int compare(int a, int b) {
+        return Integer.compare(a,b);
     }
 
     public int compareTo(AirportKey ak) {
-        int cmp = compare(this.get);
+        int cmp = compare(this.getAirportID(), ak.getAirportID());
         if (cmp != 0)
             return cmp;
-        return this.tableCode.compareTo(ak.tableCode);
+        return compare(this.gettableCode(), ak.gettableCode());
     }
 
     public void write(DataOutput out) throws IOException {
-        airportName.write(out);
-        tableCode.write(out);
+        out.write(airportID);
+        out.write(tableCode);
     }
 
     public void readFields(DataInput inp) throws IOException {
-        airportName.readFields(inp);
-        tableCode.readFields(inp);
+        airportID = inp.readInt();
+        tableCode = inp.readInt();
     }
 
-    public Text getAirportName() {
-        return airportName;
+    public int getAirportID() {
+        return airportID;
     }
 
-    public IntWritable getAirportCode() {
+    public int gettableCode() {
         return tableCode;
     }
 }
