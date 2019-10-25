@@ -15,5 +15,7 @@ public class TablesParser {
         return text.toString().split(","); // a[14]=code, a[17] = delay
     }
 
-    public static int getID(String )
+    public static int getID(String text) {
+        return Integer.parseInt(text.replace("\"",""));
+    }
 }
