@@ -20,4 +20,7 @@ public class AirportKey implements WritableComparable<AirportKey> {
         airportName = airName;
         airportCode = airCode;
     }
+
+    
 }
+
