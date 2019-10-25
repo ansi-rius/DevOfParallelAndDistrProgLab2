@@ -12,5 +12,6 @@ public class AirportsTableMapper extends Mapper<LongWritable, Text, Text, IntWri
         //читать таблицы..
         String codesAndAirports[] = TablesParser.parseAirportsTable(value); //результат парсинга таблицы,
         //работа с ключами..
+        AirportKey ak = new AirportKey()
     }
 }
