@@ -12,6 +12,6 @@ public class KeyComparator extends WritableComparator{
     public int compare(WritableComparable a, WritableComparable b) {
         sorryIdontKnowHowToNameIt.AirportKey a1 = (sorryIdontKnowHowToNameIt.AirportKey)a;
         sorryIdontKnowHowToNameIt.AirportKey b1 = (sorryIdontKnowHowToNameIt.AirportKey)b;
-        return a1.getAirportName().compareTo(b1.getAirportName());
+        return sorryIdontKnowHowToNameIt.AirportKey.compare(a1.getAirportID(), b1.getAirportID());
     }
 }
