@@ -23,5 +23,8 @@ public class TablesParser {
         return (val.equals("") || val.equals("\"ARR_DELAY\""));
     }
 
+    public static boolean checkAir(String val) {
+        return (val.equals("") || val.equals("\"ARR_DELAY\""));
+    }
 
 }

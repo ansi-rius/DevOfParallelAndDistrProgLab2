@@ -12,7 +12,7 @@ public class AirportsTableMapper extends Mapper<LongWritable, Text, sorryIdontKn
         //читать таблицы..
         String codesAndAirports[] = sorryIdontKnowHowToNameIt.TablesParser.parseAirportsTable(value); //результат парсинга таблицы,
         //работа с ключами..
-        if (key.get() == 0) {
+        if (sorryIdontKnowHowToNameIt.TablesParser.checkAir(codesAndAirports[CODE])) {
             return;
         }
         sorryIdontKnowHowToNameIt.AirportKey ak = new sorryIdontKnowHowToNameIt.AirportKey(sorryIdontKnowHowToNameIt.TablesParser.getID(codesAndAirports[CODE]),0);
