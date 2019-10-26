@@ -6,8 +6,8 @@ import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class AirportReducer extends Reducer<AirportKey, Text, Text, Text> {
-    public void reduce(AirportKey key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+public class AirportReducer extends Reducer<sorryIdontKnowHowToNameIt.AirportKey, Text, Text, Text> {
+    public void reduce(sorryIdontKnowHowToNameIt.AirportKey key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         int count = 0;
         double maxTime=Double.MIN_VALUE, minTime = Double.MAX_VALUE, time, averageTime=0;
         Iterator<Text> iter = values.iterator();

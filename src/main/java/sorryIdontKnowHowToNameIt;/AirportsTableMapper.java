@@ -5,7 +5,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import java.io.IOException;
 
-public class AirportsTableMapper extends Mapper<LongWritable, Text, AirportKey, Text> {
+public class AirportsTableMapper extends Mapper<LongWritable, Text, sorryIdontKnowHowToNameIt.AirportKey, Text> {
     private static int CODE = 0, DESCRIPTION = 1;
     @Override protected
     void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
@@ -15,7 +15,7 @@ public class AirportsTableMapper extends Mapper<LongWritable, Text, AirportKey, 
         if (key.get() == 0) {
             return;
         }
-        AirportKey ak = new AirportKey(sorryIdontKnowHowToNameIt.TablesParser.getID(codesAndAirports[CODE]),0);
+        sorryIdontKnowHowToNameIt.AirportKey ak = new sorryIdontKnowHowToNameIt.AirportKey(sorryIdontKnowHowToNameIt.TablesParser.getID(codesAndAirports[CODE]),0);
         Text des = new Text(codesAndAirports[DESCRIPTION]);
         context.write(ak, des);
     }
