@@ -24,7 +24,7 @@ public class TablesParser {
     }
 
     public static boolean checkAir(String val) {
-        return (val.equals("") || val.equals("\"ARR_DELAY\""));
+        return val.equals("Code,Description");
     }
 
 }
