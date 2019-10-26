@@ -19,5 +19,5 @@ public class TablesParser {
         return Integer.parseInt(text.replace("\"",""));
     }
 
-    
+
 }
