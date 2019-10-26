@@ -7,7 +7,7 @@ public class TablesParser {
         //Code,Description
         //"10001","Afognak Lake, AK: Afognak Lake Airport"
 
-        return text.toString().split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"); // a[0]="10001", a[1]="Afognak Lake, AK: Afognak Lake Airport"
+        return text.toString().split(",(?=\")"); // a[0]="10001", a[1]="Afognak Lake, AK: Afognak Lake Airport"
     }
 
     public static String[] parseFlightsTable(Text text) {
@@ -18,4 +18,6 @@ public class TablesParser {
     public static int getID(String text) {
         return Integer.parseInt(text.replace("\"",""));
     }
+
+    
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="" />
+    <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java" afterPath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +40,8 @@
       <file leaf-file-name="AirportReducer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +78,8 @@
       <file leaf-file-name="AirWritable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirWritable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#291#292#0" expanded="true" />
@@ -111,10 +113,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,10 +189,10 @@
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/KeyComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportsTableMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java" />
       </list>
     </option>
   </component>
@@ -524,16 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportsTableMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -544,24 +536,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/ShowDelayFlights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -580,10 +568,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/ShowDelayFlights.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirWritable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        <state relative-caret-position="162">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -593,10 +595,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding>
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
           </folding>
         </state>
       </provider>
