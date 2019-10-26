@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java" afterPath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java" afterPath="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -139,8 +139,8 @@
       <file leaf-file-name="FlightsTableMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="342">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,8 +193,8 @@
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportsTableMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java" />
       </list>
     </option>
   </component>
@@ -573,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

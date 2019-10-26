@@ -9,7 +9,7 @@ public class FlightsTableMapper extends Mapper<LongWritable, Text, sorryIdontKno
     private static int CODE = 14, DELAY = 17;
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String codesAndAirports[] = sorryIdontKnowHowToNameIt.TablesParser.parseAirportsTable(value); //результат парсинга таблицы
-        if (sorryIdontKnowHowToNameIt.TablesParser.check(codesAndAirports[DELAY])) {
+        if (sorryIdontKnowHowToNameIt.TablesParser.checkFlight(codesAndAirports[DELAY])) {
             return;
         }
         sorryIdontKnowHowToNameIt.AirportKey ak = new sorryIdontKnowHowToNameIt.AirportKey(sorryIdontKnowHowToNameIt.TablesParser.getID(codesAndAirports[CODE]),1);
