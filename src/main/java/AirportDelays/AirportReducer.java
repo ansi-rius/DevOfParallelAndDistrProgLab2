@@ -28,6 +28,6 @@ public class AirportReducer extends Reducer<AirportKey, Text, Text, Text> {
             averageTime = sum / delay;
         }
 
-        //context.write(new Text(it), new Text("MIN time = "+minTime+" MAX time = "+maxTime+" Average time = "+averageTime));
+        context.write(new Text(it), new Text("MIN time = "+minTime+" MAX time = "+maxTime+" Average time = "+averageTime));
     }
 }
