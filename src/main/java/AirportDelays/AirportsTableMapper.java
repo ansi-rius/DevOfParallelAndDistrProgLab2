@@ -1,4 +1,4 @@
-
+package AirportDelays;
 
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.io.LongWritable;
