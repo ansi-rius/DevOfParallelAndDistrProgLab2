@@ -1,9 +1,8 @@
-sorryIdontKnowHowToNameIt/AirWritable.class
-sorryIdontKnowHowToNameIt/AirportReducer.class
-sorryIdontKnowHowToNameIt/KeyComparator.class
-sorryIdontKnowHowToNameIt/AirportPartitioner.class
-sorryIdontKnowHowToNameIt/TablesParser.class
-sorryIdontKnowHowToNameIt/FlightsTableMapper.class
-sorryIdontKnowHowToNameIt/AirportKey.class
-sorryIdontKnowHowToNameIt/AirportsTableMapper.class
-sorryIdontKnowHowToNameIt/ShowDelayFlights.class
+KeyComparator.class
+AirportPartitioner.class
+TablesParser.class
+FlightsTableMapper.class
+AirportKey.class
+AirportReducer.class
+AirportsTableMapper.class
+ShowDelayFlights.class
