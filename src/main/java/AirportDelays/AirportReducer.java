@@ -3,7 +3,6 @@ package AirportDelays;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-import java.awt.geom.Arc2D;
 import java.io.IOException;
 import java.util.Iterator;
 
