@@ -44,8 +44,6 @@ public class AirportKey implements WritableComparable<AirportKey> {
         tableCode.readFields(inp);
     }
 
-    public Text getAirportID() {
-        return airportID;
-    }
+
 }
 
