@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 public class FlightsTableMapper extends Mapper<LongWritable, Text, AirportKey, Text> {
-    private static int CODE = 14, DELAY = 17;
+    private static int CODE = 14, DELAY = 18;
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String codesAndAirports[] = TablesParser.parseFlightsTable(value); //результат парсинга таблицы
         if (TablesParser.checkFlight(codesAndAirports[DELAY])) {
