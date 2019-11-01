@@ -4,6 +4,7 @@
     <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/AirportKey.java" afterPath="$PROJECT_DIR$/src/main/java/AirportKey.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" afterPath="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirportReducer.java" afterPath="$PROJECT_DIR$/src/main/java/AirportReducer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AirportsTableMapper.java" afterPath="$PROJECT_DIR$/src/main/java/AirportsTableMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShowDelayFlights.java" afterPath="$PROJECT_DIR$/src/main/java/ShowDelayFlights.java" />
     </list>
@@ -40,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportReducer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AirportReducer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportPartitioner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportPartitioner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportPartitioner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -184,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/main/java/KeyComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightsTableMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirWritable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AirportReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/ShowDelayFlights.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/KeyComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportReducer.java" />
@@ -197,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/main/java/AirportsTableMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AirportReducer.java" />
       </list>
     </option>
   </component>
@@ -649,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirportReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ShowDelayFlights.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -707,6 +698,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AirportReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
