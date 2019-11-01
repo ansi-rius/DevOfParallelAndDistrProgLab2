@@ -1,8 +1,0 @@
-KeyComparator.class
-AirportPartitioner.class
-TablesParser.class
-FlightsTableMapper.class
-AirportKey.class
-AirportReducer.class
-AirportsTableMapper.class
-ShowDelayFlights.class
