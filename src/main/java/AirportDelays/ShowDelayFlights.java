@@ -18,6 +18,7 @@ public class ShowDelayFlights {
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsTableMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportsTableMapper.class);
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
+        Path outputPath = new Path(args[2]);
         job.setPartitionerClass(AirportPartitioner.class); //партишнер в)
         job.setGroupingComparatorClass(KeyComparator.class);//компаратор г)
         job.setReducerClass(AirportReducer.class); //редьюс-функц д)
