@@ -25,7 +25,7 @@ public class AirportReducer extends Reducer<AirportKey, Text, Text, Text> {
         if (count==0)
             return;
         else {
-            averageTime = sum / delay;
+            averageTime = sum / count;
         }
 
         context.write(new Text(it), new Text("MIN time = "+minTime+" MAX time = "+maxTime+" Average time = "+averageTime));
