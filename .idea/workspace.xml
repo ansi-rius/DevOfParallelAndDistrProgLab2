@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportKey.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportReducer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportsTableMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightsTableMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeyComparator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShowDelayFlights.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TablesParser.java" afterPath="" />
-    </list>
+    <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +90,8 @@
       <file leaf-file-name="TablesParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelays/TablesParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="540">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#671#672#0" expanded="true" />
                 <element signature="e#715#716#0" expanded="true" />
@@ -685,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelays/TablesParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="540">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#671#672#0" expanded="true" />
             <element signature="e#715#716#0" expanded="true" />
