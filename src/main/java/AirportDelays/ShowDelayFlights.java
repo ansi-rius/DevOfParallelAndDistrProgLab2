@@ -13,6 +13,7 @@ public class ShowDelayFlights {
             System.exit(-1);
         }
         Job job = Job.getInstance();
+        Configuration conf = new Configuration();
         job.setJarByClass(ShowDelayFlights.class);
         job.setJobName("Delay Flights");
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsTableMapper.class);
