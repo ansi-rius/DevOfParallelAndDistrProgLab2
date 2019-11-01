@@ -24,6 +24,7 @@ public class AirportKey implements WritableComparable<AirportKey> {
         this.tableCode = new IntWritable(tableCod);
     }
 
+    @Override
     public int compareTo(AirportKey ak) {
         int cmp = airportID.compareTo(ak.airportID);
         if (cmp != 0)
@@ -31,11 +32,13 @@ public class AirportKey implements WritableComparable<AirportKey> {
         return this.tableCode.compareTo(ak.tableCode);
     }
 
+    @Override
     public void write(DataOutput out) throws IOException {
         airportID.write(out);
         tableCode.write(out);
     }
 
+    @Override
     public void readFields(DataInput inp) throws IOException {
         airportID.readFields(inp);
         tableCode.readFields(inp);
