@@ -37,16 +37,12 @@ public class AirportKey implements WritableComparable<AirportKey> {
     }
 
     public void readFields(DataInput inp) throws IOException {
-        airportID = inp.readInt();
-        tableCode = inp.readInt();
+        airportID.readFields(inp);
+        tableCode.readFields(inp);
     }
 
-    public int getAirportID() {
+    public Text getAirportID() {
         return airportID;
-    }
-
-    public int gettableCode() {
-        return tableCode;
     }
 }
 
