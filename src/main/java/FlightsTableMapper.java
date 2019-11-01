@@ -12,7 +12,7 @@ public class FlightsTableMapper extends Mapper<LongWritable, Text, AirportKey, T
         if (sorryIdontKnowHowToNameIt.TablesParser.checkFlight(codesAndAirports[DELAY])) {
             return;
         }
-        AirportKey ak = new AirportKey(sorryIdontKnowHowToNameIt.TablesParser.getID(codesAndAirports[CODE]),1);
+        AirportKey ak = new AirportKey(TablesParser.getID(codesAndAirports[CODE]),1);
         Text delay = new Text(codesAndAirports[DELAY]);
         context.write(ak, delay);
     }
