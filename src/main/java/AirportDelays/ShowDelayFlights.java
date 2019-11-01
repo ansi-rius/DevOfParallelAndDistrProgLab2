@@ -28,6 +28,7 @@ public class ShowDelayFlights {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class); //врайтбл менять
         job.setNumReduceTasks(2);
+        outputPath.getFileSystem(conf);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
