@@ -186,11 +186,11 @@
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/ShowDelayFlights.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/KeyComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportsTableMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/TablesParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/FlightsTableMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportsTableMapper.java" />
       </list>
     </option>
   </component>
@@ -202,9 +202,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="816" />
+    <option name="x" value="622" />
     <option name="y" value="23" />
-    <option name="width" value="864" />
+    <option name="width" value="1058" />
     <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -397,7 +397,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="816" y="23" width="864" height="948" extended-state="0" />
+    <frame x="622" y="23" width="1058" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -412,7 +412,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.051039696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
