@@ -1,4 +1,3 @@
-package sorryIdontKnowHowToNameIt;
 
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.fs.Path;
