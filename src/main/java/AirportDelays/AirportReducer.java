@@ -11,10 +11,10 @@ public class AirportReducer extends Reducer<AirportKey, Text, Text, Text> {
         int count = 0;
         double maxTime=Double.MIN_VALUE, minTime = Double.MAX_VALUE, time, averageTime=0;
         Iterator<Text> iter = values.iterator();
-        Text airportName = new Text(iter.next());
+        String airportName = iter.next().toString();
         while(iter.hasNext()) {
-            averageTime = Double.parseDouble(iter.next().toString());
-            time = averageTime;
+            String str = iter.next().toString();
+            time = Double.parseDouble(str);
             maxTime = Math.max(maxTime, time);
             minTime = Math.min(minTime, time);
             count++;
@@ -23,9 +23,7 @@ public class AirportReducer extends Reducer<AirportKey, Text, Text, Text> {
 
         if (count == 0)
             return;
-        if (count>0) {
-            averageTime = averageTime / count;
-        }
+        averageTime=averageTime/count;
         context.write(new Text(airportName), new Text("MIN time = "+minTime+" MAX time = "+maxTime+"Average time = "+averageTime));
     }
 }
