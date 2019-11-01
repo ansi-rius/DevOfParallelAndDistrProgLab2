@@ -14,30 +14,26 @@ import java.io.IOException;
 
 public class AirportKey implements WritableComparable<AirportKey> {
     private Text airportID;
-    private int tableCode;
+    private IntWritable tableCode;
 
     public AirportKey() {
     }
 
-    public AirportKey(int airName, int tableCod) {
-        airportID = airName;
-        tableCode = tableCod;
-    }
-
-    public static int compare(int a, int b) {
-        return Integer.compare(a,b);
+    public AirportKey(String airName, int tableCod) {
+        this.airportID = new Text(airName);
+        this.tableCode = new IntWritable(tableCod);
     }
 
     public int compareTo(AirportKey ak) {
-        int cmp = compare(this.getAirportID(), ak.getAirportID());
+        int cmp = airportID.compareTo(ak.airportID);
         if (cmp != 0)
             return cmp;
-        return compare(this.gettableCode(), ak.gettableCode());
+        return this.tableCode.compareTo(ak.tableCode);
     }
 
     public void write(DataOutput out) throws IOException {
-        out.write(airportID);
-        out.write(tableCode);
+        airportID.write(out);
+        tableCode.write(out);
     }
 
     public void readFields(DataInput inp) throws IOException {
