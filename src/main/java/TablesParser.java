@@ -19,6 +19,12 @@ public class TablesParser {
         return Integer.parseInt(text.replace("\"",""));
     }
 
+    public static boolean checkFlight(String val) {
+        return (val.equals("") || val.equals("\"ARR_DELAY\""));
+    }
 
+    public static boolean checkAir(String val) {
+        return val.equals("Code,Description");
+    }
 
 }
