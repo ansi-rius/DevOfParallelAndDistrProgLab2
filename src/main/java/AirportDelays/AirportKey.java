@@ -17,6 +17,8 @@ public class AirportKey implements WritableComparable<AirportKey> {
     private IntWritable tableCode;
 
     public AirportKey() {
+        this.airportID = new Text();
+        this.tableCode = new IntWritable();
     }
 
     public AirportKey(String airName, int tableCod) {

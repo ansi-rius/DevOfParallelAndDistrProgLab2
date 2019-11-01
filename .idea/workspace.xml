@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="" />
+    <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirportDelays/AirportKey.java" afterPath="$PROJECT_DIR$/src/main/java/AirportDelays/AirportKey.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,12 +78,12 @@
       <file leaf-file-name="AirportKey.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelays/AirportKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="283">
+              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1507#1508#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/FlightsTableMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/KeyComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportDelays/KeyComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AirportDelays/AirportKey.java" />
       </list>
     </option>
   </component>
@@ -517,8 +520,8 @@
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,12 +682,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelays/AirportKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="283">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
           </folding>
         </state>
       </provider>
