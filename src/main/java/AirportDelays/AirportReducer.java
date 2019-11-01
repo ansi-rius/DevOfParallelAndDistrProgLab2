@@ -12,14 +12,22 @@ public class AirportReducer extends Reducer<AirportKey, Text, Text, Text> {
         Iterator<Text> iter = values.iterator();
         Text it = new Text(iter.next());
         int count=0;
-        double maxTime=0, minTime=Double.MAX_VALUE, averageTime=0, sum=0, delay;
+        double maxTime=0, minTime=Double.MAX_VALUE, averageTime=0, sum=0, delay=0;
 
         while(iter.hasNext()) {
             delay = Double.parseDouble(iter.next().toString());
             if (delay > maxTime)
-                maxTime
+                maxTime=delay;
+            if (delay<minTime)
+                minTime=delay;
+            count++;
+            sum+=delay;
         }
-
-        context.write(new Text(airportName), new Text("MIN time = "+minTime+" MAX time = "+maxTime+" Average time = "+averageTime));
+        if (count==0)
+            return;
+        else {
+            averageTime = sum / delay;
+        }
+        context.write(new Text(it), new Text("MIN time = "+minTime+" MAX time = "+maxTime+" Average time = "+averageTime));
     }
 }
