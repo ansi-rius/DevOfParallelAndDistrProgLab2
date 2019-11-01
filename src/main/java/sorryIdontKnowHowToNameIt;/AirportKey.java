@@ -13,7 +13,7 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class AirportKey implements WritableComparable<AirportKey> {
-    private int airportID;
+    private Text airportID;
     private int tableCode;
 
     public AirportKey() {
