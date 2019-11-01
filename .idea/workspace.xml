@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportKey.java" afterPath="$PROJECT_DIR$/src/main/java/AirportKey.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightsTableMapper.java" afterPath="$PROJECT_DIR$/src/main/java/FlightsTableMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KeyComparator.java" afterPath="$PROJECT_DIR$/src/main/java/KeyComparator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,8 +52,8 @@
       <file leaf-file-name="KeyComparator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/KeyComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="234">
+              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
@@ -190,11 +189,11 @@
         <option value="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportsTableMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirWritable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/KeyComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ShowDelayFlights.java" />
         <option value="$PROJECT_DIR$/src/main/java/TablesParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightsTableMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/KeyComparator.java" />
       </list>
     </option>
   </component>
@@ -704,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/KeyComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="234">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
