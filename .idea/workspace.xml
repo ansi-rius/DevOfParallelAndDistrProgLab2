@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daa3c77-f7e7-43d1-a538-ba6af34def1b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirWritable.java" afterPath="$PROJECT_DIR$/src/main/java/AirWritable.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AirportKey.java" afterPath="$PROJECT_DIR$/src/main/java/AirportKey.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" afterPath="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AirportReducer.java" afterPath="$PROJECT_DIR$/src/main/java/AirportReducer.java" />
@@ -79,17 +80,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirWritable.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AirWritable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirWritable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportsTableMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportsTableMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportsTableMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -184,7 +185,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/KeyComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightsTableMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AirWritable.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/ShowDelayFlights.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/KeyComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorryIdontKnowHowToNameIt;/AirportReducer.java" />
@@ -198,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/AirportReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportsTableMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AirWritable.java" />
       </list>
     </option>
   </component>
@@ -523,10 +524,10 @@
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,20 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -713,6 +700,20 @@
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AirWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
           </folding>
         </state>
       </provider>
