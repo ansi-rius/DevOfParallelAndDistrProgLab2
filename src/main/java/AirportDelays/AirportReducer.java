@@ -16,7 +16,8 @@ public class AirportReducer extends Reducer<AirportKey, Text, Text, Text> {
 
         while(iter.hasNext()) {
             delay = Double.parseDouble(iter.next().toString());
-
+            if (delay > maxTime)
+                maxTime
         }
 
         context.write(new Text(airportName), new Text("MIN time = "+minTime+" MAX time = "+maxTime+" Average time = "+averageTime));
